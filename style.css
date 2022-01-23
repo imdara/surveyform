@@ -43,3 +43,43 @@ td {
 #row1,#row3 {
     background-color:rgb(216, 210, 210);
 }
+
+td {
+    width: 15vw;
+}
+
+#tarea {
+    width: 84.5vw;
+    height: 15vh;
+}
+
+@media (max-width:500px) {
+    body {
+        display: flex;
+    }
+    
+    form {
+        border: 1px solid black;
+        margin: 10px;
+    }
+
+    #lname {
+        position: relative;
+        left: 25px;
+    }
+    
+    #last {
+        position: relative;
+        left: 197px;
+    }
+    
+    #email {
+        width: 408px;
+    }
+
+    #tarea {
+        width: 145vw;
+        height: 15vh;
+    }
+
+}
