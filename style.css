@@ -1,0 +1,45 @@
+body {
+    display: flex;
+}
+
+form {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#ast {
+    color: red;
+}
+
+#lname {
+    position: relative;
+    left: 25px;
+}
+
+#last {
+    position: relative;
+    left: 197px;
+}
+
+#email {
+    width: 408px;
+}
+
+.fa-star {
+    color: gold;
+}
+
+td {
+    padding: 5px;
+    padding-left: 60px;
+    text-align: center;
+}
+
+#pur,#serv,#comp {
+    padding: 2px;
+    text-align: left;
+}
+
+#row1,#row3 {
+    background-color:rgb(216, 210, 210);
+}

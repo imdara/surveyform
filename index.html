@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="survey">
+        <div class="container"><b>Name</b><span id="ast">*</span></div>
+        <div class="container"><input type="text" id="fname"/> <input type="text" id="lname"/></div>
+        <div class="container"><sup id="first">First</sup><sup id="last">Last</sup></div><br>
+        <div class="container"><b>Email</b><span id="ast">*</span></div>
+        <div class="container"><input type="text" id="email"/> </div><br>
+        <div class="container"><b>Your Experience</b><span id="ast">*</span></div>
+        <div class="container">
+            <span class="fa fa-star" id="star1"></span>
+            <span class="fa fa-star" id="star2"></span>
+            <span class="fa fa-star" id="star3"></span>
+            <span class="fa fa-star" id="star4"></span>
+            <span class="fa fa-star" id="star5"></span>
+        </div>
+        <div class="container">Overall, how would you rate your experience with us?</div><br>
+        <div class="container"><p><b>How satisfied are you with it?</b><span id="ast">*</span></p>
+            <table>
+                <thead>
+                    <th></th>
+                    <td>Very Unsatisfied</td>
+                    <td>Unsatisfied</td>
+                    <td>Neutral</td>
+                    <td>Satisfied</td>
+                    <td>Very Satisfied</td>
+                </thead>
+                <tbody>
+                    <tr id="row1">
+                        <td id="pur">Purchase</td>
+                        <td><input type="radio" name="purchase"></td>
+                        <td><input type="radio" name="purchase"></td>
+                        <td><input type="radio" name="purchase"></td>
+                        <td><input type="radio" name="purchase"></td>
+                        <td><input type="radio" name="purchase"></td>
+                    </tr>
+                    <tr id="row2">
+                        <td id="serv">Service</td>
+                        <td><input type="radio" name="svc"></td>
+                        <td><input type="radio" name="svc"></td>
+                        <td><input type="radio" name="svc"></td>
+                        <td><input type="radio" name="svc"></td>
+                        <td><input type="radio" name="svc"></td>
+                    </tr>
+                    <tr id="row3">
+                        <td id="comp">Company Overall</td>
+                        <td><input type="radio" name="ovrall"></td>
+                        <td><input type="radio" name="ovrall"></td>
+                        <td><input type="radio" name="ovrall"></td>
+                        <td><input type="radio" name="ovrall"></td>
+                        <td><input type="radio" name="ovrall"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div><br>
+        <div class="container"><p><b>How likely are you to?</b><span id="ast">*</span></p>
+            <table>
+                <thead>
+                    <th></th>
+                    <td>Very Unsatisfied</td>
+                    <td>Unsatisfied</td>
+                    <td>Neutral</td>
+                    <td>Satisfied</td>
+                    <td>Very Satisfied</td>
+                </thead>
+                <tbody>
+                    <tr id="row1">
+                        <td id="pur">Purchase</td>
+                        <td><input type="radio" name="purchase"></td>
+                        <td><input type="radio" name="purchase"></td>
+                        <td><input type="radio" name="purchase"></td>
+                        <td><input type="radio" name="purchase"></td>
+                        <td><input type="radio" name="purchase"></td>
+                    </tr>
+                    <tr id="row2">
+                        <td id="serv">Service</td>
+                        <td><input type="radio" name="svc"></td>
+                        <td><input type="radio" name="svc"></td>
+                        <td><input type="radio" name="svc"></td>
+                        <td><input type="radio" name="svc"></td>
+                        <td><input type="radio" name="svc"></td>
+                    </tr>
+                    <tr id="row3">
+                        <td id="comp">Company Overall</td>
+                        <td><input type="radio" name="ovrall"></td>
+                        <td><input type="radio" name="ovrall"></td>
+                        <td><input type="radio" name="ovrall"></td>
+                        <td><input type="radio" name="ovrall"></td>
+                        <td><input type="radio" name="ovrall"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div><br>
+        <div class="container"><b>Additional Comments or Suggestions</b></div>
+        <div class="container"><textarea name="" id="" cols="112" rows="5"></textarea></div>
+        <div class="container" ><input type="button" value="Submit"></div><br>
+    </form>
+</body>
+</html>
